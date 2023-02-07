@@ -78,4 +78,4 @@ zip -r my_name.zip . -x './.git/*' -x './node_modules/*' -x *.mp4
 ## Resources
 
 - https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout
-
+- [CSS Layout Cookbook](https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook)
