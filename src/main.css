@@ -6,12 +6,69 @@ html {
   font-family: "Noto Sans", sans-serif;
 }
 
-.visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
+HTML,
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  text-align: center;
+}
+.big-heading {
+  color: white;
+  background-color: red;
+  opacity: 0.67;
+  padding: 40px 40px;
+  margin: 0 0;
+  font-family: cursive;
+  letter-spacing: -1.2px;
+  margin: 0 0 60px 0;
+}
+
+/* .forecast{
+  margin: 0 auto;
+} */
+.day {
+  margin: 10px 10px;
+  /* background-color: #AAE3E2; */
+  border-radius: 20px;
+
+  padding: 20px 40px;
+  display: inline-block;
+  text-align: left;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.day:hover {
+  background-color: #aae3e2;
+}
+i {
+  font-size: 40px;
+}
+.fa-cloud-bolt {
+  color: black;
+}
+
+.fa-sun {
+  color: red;
+  opacity: 0.68;
+}
+
+/* .day-title{
+  background-color: #AAE3E2;
+  opacity: 0.79;
+  border-radius: 10px;
+  padding: 20px 10px;
+} */
+.fa-cloud {
+  color: grey;
+}
+.fa-cloud-rain {
+  color: grey;
+}
+@media (max-width: 800px) {
+  .day {
+    text-align: center;
+    display: block;
+    margin: 10px 60px;
+  }
 }
